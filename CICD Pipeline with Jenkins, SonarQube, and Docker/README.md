@@ -132,7 +132,7 @@ Pulls the latest code from the main branch of GitHub
 
 Runs mvn clean install to build the project and run tests
 
-SonarQube Analysis
+* SonarQube Analysis
 
 Executes mvn sonar:sonar with project key, name, and authentication token
 
@@ -140,13 +140,13 @@ Sends results to SonarQube server at http://13.127.96.179:9000
 
 First create the project in SonarQube dashboard; generate a token for Jenkins
 
-Docker Build & Push
+* Docker Build & Push
 
 Builds Docker image tagged with ${BUILD_NUMBER}
 
 Pushes image to Docker Hub: roshini10/petclinic
 
-Deploy Container
+* Deploy Container
 
 Removes any existing petclinic container
 
@@ -154,7 +154,7 @@ Pulls the new image from Docker Hub
 
 Runs the container on port 9090
 
-Build & Run Instructions
+* Build & Run Instructions
 Trigger a Jenkins build manually or via Git webhook
 
 Monitor build logs in Jenkins console
