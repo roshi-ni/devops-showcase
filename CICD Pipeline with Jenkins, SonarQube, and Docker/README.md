@@ -124,7 +124,7 @@ pipeline {
     }
 }
 Stage-by-Stage Walkthrough
-Git Checkout
+*Git Checkout*
 
 Pulls the latest code from the main branch of GitHub
 
@@ -161,13 +161,9 @@ Monitor build logs in Jenkins console
 
 After success, check running container:
 
-bash
-Copy code
 docker ps -a
 Access application at:
 
-pgsql
-Copy code
 http://<server-public-ip>:9090
 Troubleshooting
 SonarQube connection error:
