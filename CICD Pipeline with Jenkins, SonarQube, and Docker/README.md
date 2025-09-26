@@ -1,4 +1,4 @@
-# Spring PetClinic — CI/CD Pipeline with Jenkins, SonarQube, and Docker
+# CI/CD Pipeline with Jenkins, SonarQube, and Docker
 
 This project demonstrates a complete CI/CD pipeline for the Spring PetClinic application using Jenkins.  
 The pipeline includes Git integration, Maven build, SonarQube code analysis, Docker image build & push, and container deployment.
