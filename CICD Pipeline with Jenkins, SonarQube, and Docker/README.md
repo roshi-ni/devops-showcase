@@ -76,7 +76,7 @@ Add Docker Hub and SonarQube credentials in Manage Jenkins → Credentials
 
 Add agent node credentials (ec2-user)
 
-Jenkins Pipeline Code
+## Jenkins Pipeline Code
 groovy
 Copy code
 pipeline {
@@ -123,7 +123,7 @@ pipeline {
         }
     }
 }
-Stage-by-Stage Walkthrough
+## Stage-by-Stage Walkthrough
 * Git Checkout
 
 Pulls the latest code from the main branch of GitHub
@@ -165,7 +165,7 @@ docker ps -a
 Access application at:
 
 http://<server-public-ip>:9090
-Troubleshooting
+## Troubleshooting
 SonarQube connection error:
 
 Verify SonarQube server is running on port 9000
@@ -180,7 +180,7 @@ Port 9090 already in use:
 
 Stop or reassign existing service on port 9090
 
-Conclusion
+## Conclusion
 This pipeline provides a complete CI/CD workflow for Spring PetClinic.
 Each commit is automatically built, analyzed, containerized, and deployed.
 It reduces manual work, ensures consistent builds, and provides quick feedback through SonarQube.
