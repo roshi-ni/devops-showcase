@@ -124,11 +124,11 @@ pipeline {
     }
 }
 Stage-by-Stage Walkthrough
-*Git Checkout*
+* Git Checkout
 
 Pulls the latest code from the main branch of GitHub
 
-Maven Build
+* Maven Build
 
 Runs mvn clean install to build the project and run tests
 
