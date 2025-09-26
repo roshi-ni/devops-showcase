@@ -132,7 +132,7 @@ Pulls the latest code from the main branch of GitHub
 
 Runs mvn clean install to build the project and run tests
 
-* SonarQube Analysis
+-- SonarQube Analysis
 
 Executes mvn sonar:sonar with project key, name, and authentication token
 
