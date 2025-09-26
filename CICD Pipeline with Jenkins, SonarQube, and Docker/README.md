@@ -125,6 +125,7 @@ pipeline {
 }
 Stage-by-Stage Walkthrough
 Git Checkout
+<img width="940" height="588" alt="image" src="https://github.com/user-attachments/assets/1c4bfc27-271a-46db-bfd5-57b63a51228b" />
 
 Pulls the latest code from the main branch of GitHub
 
