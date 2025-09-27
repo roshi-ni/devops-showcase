@@ -1,4 +1,4 @@
-# CI/CD Pipeline with Jenkins, SonarQube, and Docker
+ # CI/CD Pipeline with Jenkins, SonarQube, and Docker
 
 This project demonstrates a complete CI/CD pipeline for the Spring PetClinic application using Jenkins.  
 The pipeline includes Git integration, Maven build, SonarQube code analysis, Docker image build & push, and container deployment.
@@ -62,8 +62,8 @@ This ensures continuous integration and continuous delivery with minimal manual 
 
 1. **Install Java & Maven** on agent node  
 2. **Install Docker & Docker Compose** on agent node  
-3. **Add Jenkins user to Docker group**  
-```bash
+3. **Add Jenkins user to Docker group**
+   
 sudo usermod -aG docker jenkins
 sudo systemctl restart docker
 Configure Jenkins:
@@ -77,8 +77,7 @@ Add Docker Hub and SonarQube credentials in Manage Jenkins → Credentials
 Add agent node credentials (ec2-user)
 
 ## Jenkins Pipeline Code
-groovy
-Copy code
+```bash
 pipeline {
     agent { label 'dev' }
 
@@ -123,6 +122,7 @@ pipeline {
         }
     }
 }
+```
 ## Stage-by-Stage Walkthrough
 * Git Checkout
 
